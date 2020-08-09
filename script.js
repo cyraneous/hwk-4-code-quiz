@@ -58,10 +58,34 @@ var myQuestions = [
 
 // Show first question on page
 
-// If question is correct, proceed to next question.
+var time = myQuestions.length * 15;
 
-// If question is incorrect, proceed to the next question but subtract 10 seconds from timer
+var currentQuestionIndex = 0;
 
-// If time runs out display high score page
+var titleElement = document.getElementById("Questions-title");
 
-// Timer functionality
+var choicesElement = document.getElementById("Questions-choices");
+
+var questionsElement = document.getElementById("questions");
+
+function retrieveQuestions() {
+  var currentQuestion = myQuestions[currentQuestionIndex];
+
+  titleElement.textContent = currentQuestion.question;
+
+  choicesElement.innerHTML = "";
+
+  currentQuestion.answers.forEach(function (choice, i) {
+    var choiceButton = document.createElement("button");
+
+    choiceButton.setAttribute("class", "choice");
+
+    choiceButton.setAttribute("value", choice);
+
+    choiceButton.textContent = i + 1 + " " + choice;
+
+    choicesElement.appendChild(choiceButton);
+  });
+}
+
+function 
