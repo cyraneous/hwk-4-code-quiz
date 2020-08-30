@@ -10,12 +10,11 @@ Build a timed code quiz with multiple-choice questions. This app will run in the
 
 Page screenshots:
 
+![Alt-text](https://github.com/cyraneous/hwk-4-code-quiz/blob/master/assets/Homework%204-1.JPG)
 
+![Alt-text](https://github.com/cyraneous/hwk-4-code-quiz/blob/master/assets/Homework%204-2.JPG)
 
-
-
-
-
+![Alt-text](https://github.com/cyraneous/hwk-4-code-quiz/blob/master/assets/Homework%204-3.JPG)
 
 
 License: This project is licensed under the terms of the MIT license.
