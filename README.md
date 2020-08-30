@@ -14,7 +14,7 @@ Page screenshots:
 
 ![Alt-text](https://github.com/cyraneous/hwk-4-code-quiz/blob/master/assets/Homework%204-2.JPG)
 
-![Alt-text](https://github.com/cyraneous/hwk-4-code-quiz/blob/master/assets/Homework%204-3.JPG)
+![Alt-text](https://github.com/cyraneous/hwk-4-code-quiz/blob/master/assets/Homework%204-.JPG)
 
 
 
