@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/style.css" />
+
+    <!---Bootstrap reference code-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="card text-center">
+      <div class="card-header">Cyrus Hanson Quizzes Presents:</div>
+      <div class="card-body">
+        <h5 class="card-title">THE JAVASCRIPT QUIZ!</h5>
+
+        <!-- This is a wrapper -->
+        <div id="wrapper">
+          <!-- Div for timer -->
+          <div id="currentTime"></div>
+          <!-- Div for quiz content -->
+          <div id="questionsDiv">
+            <p>
+              Answer all questions within the time limit! The program will
+              penalize your score/time by ten seconds if you choose an incorrect
+              answer!
+            </p>
+            <ul id="choicesUl"></ul>
+            <!-- Buttons -->
+            <button id="startTime">I'm semi-terrified, but lets begin!</button>
+          </div>
+        </div>
+        <!-- Link to highscores -->
+        <a href="highscore-page.html">High Scores</a>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

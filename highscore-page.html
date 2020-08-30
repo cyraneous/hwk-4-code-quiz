@@ -3,42 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-
-    <!---Bootstrap reference code-->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous"
-    />
-    <title></title>
+    <!-- Jamie Morris Homework-4 Code Quiz -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- This is the style links -->
+    <link rel="stylesheet" type="text/css" href="assets/style.css" />
+    <!-- This is the title-->
+    <title>Document</title>
   </head>
 
-  <div class="container">
-
- 
-      <body>
-    <form class="form-inline">
-      <div class="form-group">
-        <label for="inputInitials">Enter Initials:</label>
-        <input
-          type="initials"
-          id="inputInitials"
-          class="form-control mx-sm-3"
-          aria-describedby="passwordHelpInline"
-        />
-        <small id="passwordHelpInline" class="text-muted">
-        </small>
+  <body>
+    <!-- This is a wrapper -->
+    <div id="wrapper">
+      <!-- Div for timer -->
+      <div id="currentTime"></div>
+      <!-- Div for quiz content -->
+      <div id="questionsDiv">
+        <h1>High Scores</h1>
+        <ul id="highScore"></ul>
+        <!-- Buttons -->
+        <button id="goBack">Go Back</button>
+        <button id="clear" value="reset">Clear</button>
       </div>
-    </form>
-    <a href="#" class="btn btn-primary"
-    >Submit!</a>
-    <a class="nav-link" href="intro-page.html">Play again</a>
-
-    <script src="script.js"></script>
+    </div>
+    <script src="HighScores.js"></script>
   </body>
-
 </html>
